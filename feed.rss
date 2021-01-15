@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel><title>~Zoviet</title><link>https://zoviet.github.io//index.html</link>
+<description>https://zoviet.github.io/</description><language>en</language>
+<lastBuildDate>Fri, 15 Jan 2021 19:27:42 +0400</lastBuildDate>
+<pubDate>Fri, 15 Jan 2021 19:27:42 +0400</pubDate>
+<atom:link href="https://zoviet.github.io//feed.rss" rel="self" type="application/rss+xml" />
+<item><title>
+BashBlog 
+</title><description><![CDATA[
+
+<p>The rest of the text file is a <strong>Markdown</strong> blog post. The process will continue
+as soon as you exit your editor.</p>
+
+<p>Категории: <a href='category_Soft.html'>Soft</a></p>
+<!-- text end -->
+]]></description><link>https://zoviet.github.io//588.html</link>
+<guid>https://zoviet.github.io//./588.html</guid>
+<dc:creator>Alexandr Pavlov</dc:creator>
+<pubDate>Fri, 15 Jan 2021 19:27:37 +0400</pubDate></item>
+</channel></rss>
