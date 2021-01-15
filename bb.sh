@@ -371,7 +371,7 @@ ogg() {
 		titlefontsize=$(( $fontsize*2 ))
 		linesize=$(( ($og_width -2*$left)*4/$fontsize ))
 		titlesize=$(( $linesize/2 ))
-		except=$(grep -v "^<p>$template_tags_line_header" "$1" | sed -e 's/<[^>]*>//g' | sed "s/\&mdash;/-/g" | sed "s/\"//g" | head -c 450 | fold -s --width="$linesize") 
+		except=$(grep -v "^<p>$template_tags_line_header" "$1" | sed -e 's/<[^>]*>//g' | sed "s/\&mdash;/-/g" | sed "s/\"//g" | head -c 1550 | fold -s --width="$linesize") 
 		title=$(echo "$2" | sed "s/\"//g" | sed "s/\&mdash;/-/g" | fold -s --width="$titlesize");
 		extop=$(( $top*2+$titlefontsize*(1+((${#title}*2)/$titlesize)) ));
 		convert -size "$og_width"x"$og_height" canvas:"$bg" -gravity NorthWest -pointsize "$titlefontsize" -annotate +"$left"+"$top" "$title" -pointsize "$fontsize" -annotate +"$left"+"$extop" "$except" ./ogg/"$pngname".png;	
