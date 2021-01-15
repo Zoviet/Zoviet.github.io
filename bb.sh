@@ -523,13 +523,14 @@ create_html_page() {
         fi
         cat "$content" # Actual content
         if [[ $index == no ]]; then
+        
             echo -e '\n<!-- text end -->'
+             [[ -n $body_end_file ]] && cat "$body_end_file"
 
             twitter "$global_url/$file_url"
 
             echo '<!-- entry end -->' # absolute end of the post
         fi
-
         echo '</div>' # content
 
         # Add disqus commments except for index and all_posts pages
@@ -540,7 +541,7 @@ create_html_page() {
         # close divs
         echo '</div></div>' # divbody and divbodyholder 
         disqus_footer
-        [[ -n $body_end_file ]] && cat "$body_end_file"
+        # [[ -n $body_end_file ]] && cat "$body_end_file"
         echo '</body></html>'
     } > "$filename"
 }
