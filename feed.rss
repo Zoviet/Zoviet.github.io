@@ -2,18 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>~Zoviet</title><link>https://zoviet.github.io/index.html</link>
 <description>https://zoviet.github.io/</description><language>en</language>
-<lastBuildDate>Fri, 22 Jan 2021 19:41:57 +0400</lastBuildDate>
-<pubDate>Fri, 22 Jan 2021 19:41:57 +0400</pubDate>
+<lastBuildDate>Fri, 22 Jan 2021 20:09:54 +0400</lastBuildDate>
+<pubDate>Fri, 22 Jan 2021 20:09:54 +0400</pubDate>
 <atom:link href="https://zoviet.github.io/feed.rss" rel="self" type="application/rss+xml" />
 <item><title>
-Про измерение природы в процентах
+Российское Дао
+</title><description><![CDATA[
+
+<p>Практика невникания вместо практики недеяния - это и есть российское дао: жизнь без вопросов и задач, но наполненная проблемами, неотделимыми от угрозы. Угрозы невниканию. </p>
+
+<p>Уважаемый человек - это герой внутренней российской алхимии, преодолевший и нигредо, и рубедо и достигший за счет этого уважения. </p>
+
+<p>Категории: <a href='category_Жизнь.html'>Жизнь</a></p>
+<hr />
+<h3>Комментарии:</h3>
+
+<p>Репозиторий блога - <a href="https://github.com/Zoviet/Zoviet.github.io">https://github.com/Zoviet/Zoviet.github.io</a>.</p>
+<p>Лицензия текстов - FDLv1.3, что означает, что вы вольны делать с ними все, что вам угодно: изменять, копировать, удалять, менять, продавать и так далее. Уведомлять кого-либо о чем-либо не требуется.</p>
+<p>Если вы видите в посте неточность, или с чем-то не согласны, делайте коммит в репозиторий. Обратите внимание на то, что править необходимо исходные Markdown файлы, а не уже собранные html.</p>
+<p>Если вам все-таки хочется оставить в тексте комментарий, пожалуйста отбивайте его от основного текста линией (----).</p>
+]]></description><link>https://zoviet.github.io/rossijskoe-dao.html</link>
+<guid>https://zoviet.github.io/./rossijskoe-dao.html</guid>
+<dc:creator>Alexandr Pavlov</dc:creator>
+<pubDate>Fri, 22 Jan 2021 20:05:06 +0400</pubDate></item>
+<item><title>
+Про измерение природы в процентах 
+и единство управления
 </title><description><![CDATA[
 
 <p>Природа (в широком понимании) измеряется в процентах её защиты, культура в квадратных метрах, а удовлетворенность населения в количестве опросов про эту удовлетворенность. </p>
 
-<p>При этом все это неизбежно и буквально ограничено - границами учетных поместий. </p>
+<p>При этом все это неизбежно и буквально ограничено - границами учетных поместий, а единство управления обеспечивается через единство учета. </p>
 
-<p>Категории: <a href='category_География.html'>География</a></p>
+<p>Категории: <a href='category_Жизнь.html'>Жизнь</a></p>
 <hr />
 <h3>Комментарии:</h3>
 
