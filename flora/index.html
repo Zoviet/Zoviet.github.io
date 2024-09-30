@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Флора сосудистых растений - My Docs</title>
+        <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <script src="../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+
+                <!-- Collapsed navigation -->
+                <div class="navbar-header">
+                    <!-- Expander button -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="..">My Docs</a>
+                </div>
+
+                <!-- Expanded navigation -->
+                <div class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li >
+                                <a href="..">Общее описание</a>
+                            </li>
+                            <li class="active">
+                                <a href="./">Флора сосудистых растений</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li >
+                                <a rel="next" href="..">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="disabled">
+                                <a rel="prev" >
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#_1">Флора сосудистых растений</a></li>
+            <li><a href="#_2">Сделано следующее:</a></li>
+            <li><a href="#_3">Для чего может быть использовано?</a></li>
+            <li><a href="#_4">Структура БД и описание полей</a></li>
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h1 id="_1">Флора сосудистых растений</h1>
+<p>В основе лежит база данных Института математических проблем биологии РАН РФ (https://www.impb.ru), которая актуализирована и операционализирована. </p>
+<h2 id="_2">Сделано следующее:</h2>
+<ol>
+<li>Восстановлена база ECOCROP (http://www.fao.org/land-water/land/land-governance/land-resources-planning-toolbox/category/details/en/c/1027491/), которая не доступна с конца 2020 года. </li>
+</ol>
+<p>"Ecocrop - это база данных, используемая для определения пригодности культуры для определенной среды. Разработанный Продовольственной и сельскохозяйственной организацией Объединенных Наций (ФАО), он предоставляет информацию, позволяющую прогнозировать жизнеспособность сельскохозяйственных культур в различных местах и ​​климатических условиях. Он также служил каталогом растений и характеристик роста растений". Экокроп - https://ru.xcv.wiki/wiki/Ecocrop</p>
+<ol>
+<li>
+<p>База "Флора растений Центральной России" (далее БД ФРЦР) связана с базой Ecocrop, т.е. дополнена данными Ecocrop для тех растений (пищевых), которые есть в базе Ecocrop.</p>
+</li>
+<li>
+<p>Операционализированы и описаны экологические индикаторы:</p>
+</li>
+</ol>
+<p>3.1. База индикаторов по Эленбергу из БД ФРЦР заменена на актуальную (общепринятую в настоящее время, см https://drive.google.com/file/d/0B_xy2gfevlYXWUNuaFM2V0RJWVU/view), т.к. данные из БД ФРЦР по этим индикаторам более старые
+3.2. База индикаторов по Цыганову (считаю эти индикаторы наиболее проработаными) операционализирована по оригинальному изданию Цыганов Д.Н. Фитоиндикация экологических режимов в подзоне хвойно-широколиственных лесов. М.: Наука. 1983. 196 с. путем оцифровки оригинальной фитоиндикационной экологической таблицы и превращения её в таблицу БД (оригинальная таблица - страницы 130-134 указанного издания), т.к., несмотря на активное использование индикаторов Цыганова в практике современной геоботаники такой таблицы в операционализированном виде не было. 
+3.3. Все ключи индикаторов всех трех типов экоиндикаторов унифицированы  и описаны</p>
+<ol>
+<li>
+<p>БД ФРЦР расширена связями с БД лекарственных растений официальной фармокопеи из: Саякова, Г. М. Фармакогнозия : учебник / Саякова Г. М. , Датхаев У. М. , Кисличенко В. С. - Москва : Литтерра, 2019. - 352 с. - ISBN 978-5-4235-0258-4. - Текст : электронный // URL : https://www.rosmedlib.ru/book/ISBN9785423502584.html (дата обращения: 31.05.2021).  Соответственно, вся официальная фармокопея оцифрована и нормализирована (так же не было в таком виде)</p>
+</li>
+<li>
+<p>Расшифрованы эколого-ценотические группы и подгруппы, имеющиеся в БД ФРЦР по классификации из Смирновой О.В., Ханиной Л.Г., Смирновым В.Э. Эколого-ценотические группы в растительном покрове лесного пояса Восточной Европы // Восточноевропейские леса: история в голоцене и современность / О.В.Смирнова (ред.). Кн. 1. М.: Наука. 2004. С. 165-175. </p>
+</li>
+<li>
+<p>Разобрана и восстановлена таксонометрия до уровня "Семейство-Род".</p>
+</li>
+</ol>
+<h2 id="_3">Для чего может быть использовано?</h2>
+<ol>
+<li>При анализе совместно с климатическими моделями - для прогноза урожайности и рисков растений по группам, таксонам и видам</li>
+<li>Для поиска растений с аналогичными лекарственными свойствами (с использованием экологических шкал)</li>
+<li>Для глубокого геоботанического анализа с использованием экологических шкал, ценотических групп и т.д.</li>
+<li>В моделях анализа экологического ущерба</li>
+<li>В моделях оценки биопроизводительности</li>
+<li>В экспертных системах для выбора растений для посадки</li>
+<li>В моделях оценки урожайности
+и т.д.</li>
+</ol>
+<h2 id="_4">Структура БД и описание полей</h2>
+<pre><code>db_legend   - описание полей таблицы impb   
+ecocrop - таблица связи между БД ФРЦР и БД Ecocrop
+elenberg - таблица экологических шкал Эленберга
+groups - описания эколого-ценотических групп и подгрупп
+impb - актуализованная БД ФРЦР
+lecar - лекраственные травы с описанием действующих веществ
+taxon_family - семейство
+taxon_kind  - род
+</code></pre></div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "..",
+                shortcuts = {"search": 83, "next": 78, "help": 191, "previous": 80};
+        </script>
+        <script src="../js/base.js" defer></script>
+        <script src="../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form role="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="Keyboard Shortcuts Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Keyboard Shortcuts</h4>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
